@@ -4,9 +4,7 @@
 
 ### Install the AWS CLI
 
-```
-https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
-```
+<a href="https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html" target="_blank">https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html </a>
 
 ### Configure the AWS CLI
 
@@ -21,31 +19,25 @@ Default output format [None]: json
 
 See the details:
 
-```
-https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-files.html#cli-configure-files-methods
-```
+<a href="https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-files.html#cli-configure-files-methods" target="_blank">https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-files.html#cli-configure-files-methods </a>
 
 If you are exploring alternative methods to configure the AWS CLI, consider the following options:
 
-```
-https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-configure.html
-```
+
+<a href="https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-configure.html" target="_blank">https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-configure.html </a>
+
 
 ### Install kubectl
 
-```
-https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/
-```
+<a href="https://kubernetes.io/docs/tasks/tools/#kubectl" target="_blank">https://kubernetes.io/docs/tasks/tools/#kubectl </a>
 
 ### Configure kubectl for the IAM user:
 To enable the IAM user to interact with the EKS cluster using kubectl, they will need to configure their local kubectl setup with the cluster's information. Share the following command with the user, replacing CLUSTER_NAME and REGION with the appropriate values:
 
 ```
-aws eks update-kubeconfig --region REGION --name CLUSTER_NAME
+aws eks update-kubeconfig --region <region> --name <cluster_name>
 ```
 
 If you are exploring alternative methods to configure **kubeconfig** file for an Amazon EKS cluster, consider the following options:
 
-```
-https://docs.aws.amazon.com/eks/latest/userguide/create-kubeconfig.html
-```
+<a href="https://docs.aws.amazon.com/eks/latest/userguide/create-kubeconfig.html" target="_blank">https://docs.aws.amazon.com/eks/latest/userguide/create-kubeconfig.html </a>
